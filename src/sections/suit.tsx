@@ -1,21 +1,18 @@
 import ButtonLink from "../components/button-link";
 import Card1 from "../components/card-1";
+import CommonInformation from "./common-information";
 
 const Suit = () => {
   return (
     <section className="mt-[120px]">
-      <p className="text-xl text-center">Tiptap Suite</p>
-      <h2 className="text-[2.8rem] md:text-[4rem] w-5/6 leading-[3rem] md:leading-[4rem] mx-auto font-poly-sans-median font-bold mt-6">
-        <span className="block text-center">Create your editor</span>
-        <span className="block text-center text-[0.95em] font-tobias font-light md:w-5/6 lg:w-5/12 md:mx-auto">
-          with the features you want
-        </span>
-      </h2>
-      <p className="text-xl text-center mt-6 w-11/12 md:w-5/6 lg:w-5/12 mx-auto mb-8 md:mb-12">
-        Tiptap's extension-based architecture puts you in control. Choose from a
+      <CommonInformation
+        label="Tiptap Suite"
+        emphasizeSubLabel="Create your editor"
+        normalSubLabel="with the features you want"
+        description="Tiptap's extension-based architecture puts you in control. Choose from a
         wide range of over 100+ Core, Pro, and Cloud extensions, or build and
-        integrate your own.
-      </p>
+        integrate your own."
+      />
 
       <div className="p-6 mx-auto md:w-11/12 lg:w-5/6 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <Card1

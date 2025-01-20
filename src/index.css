@@ -79,8 +79,31 @@ body::-webkit-scrollbar {
   }
 }
 
-.infinity-scroll {
+@keyframes scrolling-inverse {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.infinity-scroll-40s {
   animation: scrolling 40s linear infinite;
+}
+
+.infinity-scroll-35s {
+  animation: scrolling 35s linear infinite;
+}
+
+.infinity-scroll-inverse-35s {
+  animation: scrolling-inverse 35s linear infinite;
+}
+
+.outlined {
+  color: #ffffff;
+  -webkit-text-stroke-width: 0.1rem;
+  -webkit-text-stroke-color: var(--black-a-100);
 }
 
 

@@ -33,7 +33,7 @@ const Brands = () => {
   return (
     <section className="mt-[120px] w-screen">
       <div className="overflow-scroll no-scrollbar flex">
-        <div className="flex gap-16 shrink-0 will-change-transform infinity-scroll mr-16">
+        <div className="flex gap-16 shrink-0 will-change-transform infinity-scroll-40s mr-16">
           {brandsLogoUrls.map((url) => {
             return (
               <div
@@ -47,7 +47,7 @@ const Brands = () => {
         </div>
         <div
           aria-hidden
-          className="flex gap-16 shrink-0 will-change-transform infinity-scroll mr-16"
+          className="flex gap-16 shrink-0 will-change-transform infinity-scroll-40s mr-16"
         >
           {brandsLogoUrls.map((url) => {
             return (
