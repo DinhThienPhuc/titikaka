@@ -6,6 +6,8 @@ module.exports = {
       backgroundImage: {
         "hero-pattern":
           "url('https://cdn.prod.website-files.com/645a9acecda2e0594fac6126/6580b17f35510ffc21541053_gradient-noise-green-red.png')",
+        "footer-img":
+          "url('https://cdn.prod.website-files.com/645a9acecda2e0594fac6126/6679d424b15ec493e1500f69_gradient-noise-purple-azure-dark.jpg')",
       },
       boxShadow: {
         "card-1":

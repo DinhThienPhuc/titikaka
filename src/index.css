@@ -71,6 +71,10 @@ body::-webkit-scrollbar {
   scrollbar-width: none; /* Firefox */
 }
 
+* {
+  box-sizing: border-box;
+}
+
 @keyframes scrolling {
   0% {
     transform: translateX(0);

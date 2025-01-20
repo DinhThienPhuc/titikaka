@@ -3,7 +3,7 @@ import { AnchorHTMLAttributes, ReactNode } from "react";
 
 export interface IButtonLinkProps
   extends AnchorHTMLAttributes<HTMLAnchorElement> {
-  variant?: "contained" | "outlined" | "text";
+  variant?: "contained" | "outlined" | "text" | "inverse";
   leftIcon?: ReactNode;
   rightIcon?: ReactNode;
   disabled?: boolean;
@@ -28,6 +28,8 @@ const ButtonLink = ({
           "bg-neutral-900 text-white border-neutral-900 font-poly-sans-neutral px-4 py-3 font-normal",
         variant === "outlined" &&
           "text-neutral-900 !border-neutral-900 font-poly-sans-neutral px-4 py-3 font-normal",
+        variant === "inverse" &&
+          "bg-white text-neutral-900 border-transparent font-poly-sans-neutral px-4 py-3 font-normal",
         disabled && "opacity-50 cursor-not-allowed"
       )}
     >
