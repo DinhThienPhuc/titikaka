@@ -30,7 +30,8 @@ const ButtonLink = ({
           "text-neutral-900 !border-neutral-900 font-poly-sans-neutral px-4 py-3 font-normal",
         variant === "inverse" &&
           "bg-white text-neutral-900 border-transparent font-poly-sans-neutral px-4 py-3 font-normal",
-        disabled && "opacity-50 cursor-not-allowed"
+        disabled && "opacity-50 cursor-not-allowed",
+        props.className
       )}
     >
       {leftIcon}

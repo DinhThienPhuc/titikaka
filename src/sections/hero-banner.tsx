@@ -104,7 +104,7 @@ const TextCursor = () => {
 
 const HeroBanner = () => {
   return (
-    <section className="pt-24 md:pt-[200px] bg-hero-pattern bg-no-repeat md:bg-right-top">
+    <section className="pt-32 md:pt-[200px] bg-hero-pattern bg-no-repeat md:bg-right-top">
       <div className="w-11/12 md:w-9/12 lg:w-7/12 mx-auto ">
         <h1 className="text-[3.6rem] md:text-[4.8rem] lg:text-[5.2rem] text-center whitespace-break-spaces font-bold leading-[3.6rem] md:leading-[4.8rem] text-balance">
           <span className="block font-poly-sans-median">
