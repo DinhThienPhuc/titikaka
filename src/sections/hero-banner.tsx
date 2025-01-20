@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import clsx from "clsx";
+import ButtonLink from "../components/button-link";
 
 const TEXT_LIST = [
   "whiteboard collaboration",
@@ -119,18 +120,15 @@ const HeroBanner = () => {
         </p>
 
         <div className="flex gap-3 justify-center mt-16">
-          <a
+          <ButtonLink
             href="https://cloud.tiptap.dev/register"
-            className="text-white bg-neutral-900 border border-neutral-900 rounded-xl px-4 py-3 font-poly-sans-neutral"
+            variant="contained"
           >
             Sign up free
-          </a>
-          <a
-            href="https://templates.tiptap.dev/"
-            className="text-neutral-900 border border-neutral-900 rounded-xl px-4 py-3 font-poly-sans-neutral"
-          >
+          </ButtonLink>
+          <ButtonLink href="https://templates.tiptap.dev/" variant="outlined">
             Try it live
-          </a>
+          </ButtonLink>
         </div>
       </div>
     </section>

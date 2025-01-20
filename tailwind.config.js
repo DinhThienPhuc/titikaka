@@ -7,6 +7,10 @@ module.exports = {
         "hero-pattern":
           "url('https://cdn.prod.website-files.com/645a9acecda2e0594fac6126/6580b17f35510ffc21541053_gradient-noise-green-red.png')",
       },
+      boxShadow: {
+        "card-1":
+          "0 4px 10px rgba(0, 0, 0, 0.04), 0 1px 4px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(0, 0, 0, 0.02)",
+      },
     },
     fontFamily: {
       "poly-sans-slim": ["'PolySans Slim'", "sans-serif"],
