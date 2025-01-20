@@ -68,7 +68,7 @@ const Templates = () => {
 
       <div className="mt-16">
         <div className="overflow-scroll no-scrollbar">
-          <div className="flex gap-8">
+          <div className="flex gap-8 px-8">
             {[...TEMPLATE_CARDS, ...TEMPLATE_CARDS, ...TEMPLATE_CARDS].map(
               (card, index) => {
                 return (

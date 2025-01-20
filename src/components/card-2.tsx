@@ -15,8 +15,8 @@ const Card2 = ({
 }: ICard2Props) => {
   return (
     <div className="h-full w-full flex flex-col">
-      <div className="w-full relative after:content-[''] overflow-hidden rounded-3xl after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0 after:rounded-3xl after:shadow-card-1">
-        <img src={image} alt={image} className="w-full h-full" />
+      <div className="w-full relative after:content-[''] rounded-3xl after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0 after:rounded-3xl after:shadow-card-1">
+        <img src={image} alt={image} className="w-full h-full rounded-3xl" />
       </div>
 
       <div className="flex flex-col justify-between mt-6 flex-1">
