@@ -4,32 +4,32 @@
 
 @layer base {
   @font-face {
-    font-family: 'PolySans Slim';
-    src: url('./assets/fonts/PolySans-Slim.woff2') format('woff2');
+    font-family: "PolySans Slim";
+    src: url("./assets/fonts/PolySans-Slim.woff2") format("woff2");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
   }
 
   @font-face {
-    font-family: 'PolySans Neutral';
-    src: url('./assets/fonts/PolySans-Neutral.woff2') format('woff2');
+    font-family: "PolySans Neutral";
+    src: url("./assets/fonts/PolySans-Neutral.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
   }
-  
+
   @font-face {
-    font-family: 'PolySans Median';
-    src: url('./assets/fonts/PolySans-Median.woff2') format('woff2');
+    font-family: "PolySans Median";
+    src: url("./assets/fonts/PolySans-Median.woff2") format("woff2");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
   }
-  
+
   @font-face {
-    font-family: 'Tobias';
-    src: url('./assets/fonts/Tobias-Light.woff2') format('woff2');
+    font-family: "Tobias";
+    src: url("./assets/fonts/Tobias-Light.woff2") format("woff2");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -51,7 +51,8 @@ body {
   line-height: 1.5;
 }
 
-html, body {
+html,
+body {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer 10+ */
 }
@@ -105,5 +106,3 @@ body::-webkit-scrollbar {
   -webkit-text-stroke-width: 0.1rem;
   -webkit-text-stroke-color: var(--black-a-100);
 }
-
-

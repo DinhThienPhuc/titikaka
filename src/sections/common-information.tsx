@@ -12,7 +12,7 @@ const CommonInformation = ({
   description,
 }: ICommonInformationProps) => {
   return (
-    <section className="mt-[120px]">
+    <div className="mt-[120px]">
       <p className="text-xl text-center">{label}</p>
       <h2 className="text-[2.8rem] md:text-[4rem] w-5/6 leading-[3rem] md:leading-[4rem] mx-auto font-poly-sans-median font-bold mt-6">
         <span className="block text-center">{emphasizeSubLabel}</span>
@@ -23,7 +23,7 @@ const CommonInformation = ({
       <p className="text-xl text-center mt-6 w-11/12 md:w-5/6 lg:w-5/12 mx-auto mb-8 md:mb-12">
         {description}
       </p>
-    </section>
+    </div>
   );
 };
 

@@ -1,10 +1,12 @@
 import clsx from "clsx";
 import { AnchorHTMLAttributes, ReactNode } from "react";
 
-interface IButtonLinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
+export interface IButtonLinkProps
+  extends AnchorHTMLAttributes<HTMLAnchorElement> {
   variant?: "contained" | "outlined" | "text";
   leftIcon?: ReactNode;
   rightIcon?: ReactNode;
+  disabled?: boolean;
 }
 
 const ButtonLink = ({
@@ -13,6 +15,7 @@ const ButtonLink = ({
   variant = "text",
   leftIcon = null,
   rightIcon = null,
+  disabled = false,
   ...props
 }: IButtonLinkProps) => {
   return (
@@ -24,7 +27,8 @@ const ButtonLink = ({
         variant === "contained" &&
           "bg-neutral-900 text-white border-neutral-900 font-poly-sans-neutral px-4 py-3 font-normal",
         variant === "outlined" &&
-          "text-neutral-900 !border-neutral-900 font-poly-sans-neutral px-4 py-3 font-normal"
+          "text-neutral-900 !border-neutral-900 font-poly-sans-neutral px-4 py-3 font-normal",
+        disabled && "opacity-50 cursor-not-allowed"
       )}
     >
       {leftIcon}
